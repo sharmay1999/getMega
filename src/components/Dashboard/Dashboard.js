@@ -59,7 +59,7 @@ class Dashboard extends React.Component {
     return (
       <div>
         <div style={{display: 'inline-flex'}}>
-        <h3 style={{ fontFamily: "Georgia, serif" , width: '1340px', paddingLeft: '5px'}}>Analytica</h3>
+        <h3 style={{ fontFamily: "Georgia, serif" , width: '1380px', paddingLeft: '5px'}}>Analytica</h3>
         <Logout/>
         </div>
         <hr />

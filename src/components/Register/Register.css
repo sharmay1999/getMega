@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: lightskyblue;
   }
   .register__container {
     display: flex;
@@ -28,9 +29,11 @@
     border: none;
     color: white;
     background-color: black;
+    cursor: pointer;
   }
   .register__google {
     background-color: #4285f4;
+    cursor: pointer;
   }
   .register div {
     margin-top: 7px;

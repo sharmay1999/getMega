@@ -15,6 +15,7 @@ function Reset() {
   return (
     <div className="reset">
       <div className="reset__container">
+        <h2>Reset password</h2>
         <input
           type="text"
           className="reset__textBox"

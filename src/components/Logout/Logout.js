@@ -30,9 +30,9 @@ function Logout() {
     <div className="dashboard">
       <div className="dashboard__container">
         <div>{name}</div>
-        <div class="tooltip">
+        <div className="tooltip">
           <img src={profile} width='24px' style={{ cursor: 'pointer' }} onClick={logout} />
-          <span class="tooltiptext">Logout</span>
+          <span className="tooltiptext">Logout</span>
         </div>
         {/* <div>{user?.email}</div> */}
       </div>

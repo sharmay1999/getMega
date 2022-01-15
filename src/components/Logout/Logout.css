@@ -1,0 +1,58 @@
+/*
+ * Logout css File
+*/
+
+.dashboard {
+    /* height: 100vh;
+    width: 100vw; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right; */
+  }
+  .dashboard__container { 
+    text-align: center;
+  }
+  /* .dashboard__btn {
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+  } */
+  .dashboard div {
+    margin-top: 7px;
+  }
+  /* div.tooltip span {
+    display: none;
+    text-align: center;
+  }
+  
+  div.tooltip:hover span {
+    display: block;
+    text-align: center;
+  } */
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
